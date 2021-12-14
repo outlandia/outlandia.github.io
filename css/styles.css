@@ -11110,7 +11110,10 @@ html {
 @media (max-width: 992px) {
 .image1 {
   position: relative;
-  width: 60rem;;
+  width: 60rem;
+}
+.masthead .masthead-avatar {
+  width: 30rem !important;
 }
 }
 
