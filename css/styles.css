@@ -7472,7 +7472,7 @@ textarea.form-control-lg {
   background-image: url("../assets/img/backgroundgif.gif");
   background-position: center;
 
-  background-size: auto; 
+  background-size: cover; 
 }
 
 .bg-secondary {
@@ -11149,7 +11149,8 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  max-width: 35rem;
+
   border-radius: 0rem;
   overflow: hidden;
 }
