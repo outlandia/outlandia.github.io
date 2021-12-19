@@ -151,7 +151,7 @@
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ms-auto"><p class="lead">OUTLANDIA is a 2D role-playing adventure, set in a universe where Western North America has been burdened with the arrival of a magical substance, Magik, VIA a comet. You, the protagonist, a young and developing mage, must quickly learn the ways of Magik to defend your newfound home, Skala Village, from a ever-changing dangerous world. </p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">With an emphasis on survival, exploration, character customization and base-building, you will have lots of options to grow your character in unique ways to keep the residents of Skala Village safe.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">With an emphasis on survival, exploration, character customization and base-building, you will have lots of options to grow your character in unique ways to keep the residents of Skala Village safe. All of the programming, design, art and music was made by one individual.</p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -203,7 +203,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-header border-0"><button class="btn-close close-button1" type="button" data-bs-dismiss="modal" aria-label="Close" id="closeButton1.1"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -217,7 +217,11 @@
                                         <div class="divider-custom-line color-dark"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image1-->
-                                    <img class="img-fluid rounded-0 mb-5" src="assets/img/videos/TOGIF_combat.gif" alt="..." />
+                                    <!--<img class="img-fluid rounded-0 mb-5" src="assets/img/videos/TOGIF_combat.gif" alt="..." />-->
+                                    <video style = "margin-bottom: 3rem" width="500" controls  id="myVideoPlayer1">
+                                        <source src="assets/img/videos/TOGIF_combat.mp4" type="video/mp4" alt="..." />
+                                    </video>
+
                                     <!-- Portfolio Modal - Text1-->
                                     <p class="mb-4 mt-7">Turn-based combat system</p>
                                     <p class="mb-4 mt-4">The combat system in OUTLANDIA is similar to that of games such as Pokemon, with a goal of making each battle difficult for the player. Damage is scaled based on
@@ -225,7 +229,7 @@
                                      - both the player and the current enemy can spawn up to three companion entities to perform random attacks. Player pets will level with the player, and each enemy can be tamed by means of a spell or potion. </p>
                                     
 
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <button class="btn btn-primary close-button1" href="#!" id="closeButton1.2" data-bs-dismiss="modal" >
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
@@ -240,7 +244,7 @@
          <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-header border-0"><button class="btn-close close-button2" type="button" data-bs-dismiss="modal" aria-label="Close" id="closeButton2.1"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -254,7 +258,10 @@
                                         <div class="divider-custom-line color-dark"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image1-->
-                                    <img class="img-fluid rounded-0 mb-5" src="assets/img/videos/TOGIF_forage.gif" alt="..." />
+                                    <!--<img class="img-fluid rounded-0 mb-5" src="assets/img/videos/TOGIF_forage.gif" alt="..." />-->
+                                    <video style = "margin-bottom: 3rem" width="500" controls  id="myVideoPlayer2">
+                                        <source src="assets/img/videos/TOGIF_forage.mp4" type="video/mp4" alt="..." />
+                                    </video>
                                     <!-- Portfolio Modal - Text1-->
                                     <p class="mb-4 mt-7">Forage to build up your base and character</p>
                                     <p class="mb-4 mt-4">To survive in the world of OUTLANDIA, you will be required to forage raw materials from around the map. Health, Stamina and Magik, of which are required for battle (and to not die)
@@ -262,7 +269,7 @@
                                     specific parts of the map, which can be used to create alchemical potions in a cauldron - for use during combat, or to help out villagers in quests. </p>
                                     
 
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <button class="btn btn-primary close-button2" href="#!" data-bs-dismiss="modal" id="closeButton2.2">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
@@ -277,7 +284,7 @@
          <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-header border-0"><button class="btn-close close-button3" type="button" data-bs-dismiss="modal" aria-label="Close" id="closeButton3.1"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -291,14 +298,17 @@
                                         <div class="divider-custom-line color-dark"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image1-->
-                                    <img class="img-fluid rounded-0 mb-5" src="assets/img/videos/farming.gif" alt="..." />
+                                    <!--<img class="img-fluid rounded-0 mb-5" src="assets/img/videos/farming.gif" alt="..." />-->
+                                    <video style = "margin-bottom: 3rem" width="500" controls  id="myVideoPlayer3">
+                                        <source src="assets/img/videos/TOGIF_farming.mp4" type="video/mp4" alt="..." />
+                                    </video>
                                     <!-- Portfolio Modal - Text1-->
                                     <p class="mb-4 mt-7">Farming is at the basis of every wandering Maegi</p>
                                     <p class="mb-4 mt-4">Maegi are peaceful humans by nature, and will only use combat in self-defence (they cannot kill neutral animals, without losing their connection to Magik). For this reason,
                                     every Maegi must be a proficient farmer in order to survive and provide for villages that fall under their aegis. Farm a variety of crops in OUTLANDIA, for food, but also to sell to villagers for coin - 
                                     which will allow you to progress in the game. </p>
 
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <button class="btn btn-primary close-button3" href="#!" data-bs-dismiss="modal" id="closeButton3.2">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
@@ -313,7 +323,7 @@
          <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-header border-0"><button class="btn-close close-button4" type="button" data-bs-dismiss="modal" aria-label="Close" id="closeButton4.1"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -327,14 +337,17 @@
                                         <div class="divider-custom-line color-dark"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image1-->
-                                    <img class="img-fluid rounded-0 mb-5" src="assets/img/videos/TOGIF_crafting.gif" alt="..." />
+                                    <!--<img class="img-fluid rounded-0 mb-5" src="assets/img/videos/TOGIF_crafting.gif" alt="..." />-->
+                                    <video style = "margin-bottom: 3rem" width="500" controls  id="myVideoPlayer4">
+                                        <source src="assets/img/videos/TOGIF_crafting.mp4" type="video/mp4" alt="..." />
+                                    </video>
                                     <!-- Portfolio Modal - Text1-->
                                     <p class="mb-4 mt-7">Build structures around the map to customize bases</p>
                                     <p class="mb-4 mt-4">Structures can be erected around the map, in most locations, once the necessary raw materials have been gathered. These structures will in turn provide shelter, amongst other features (storage, cooking...etc...).
                                     The crafting system in OUTLANDIA is based on blueprints, that can be purchased by craftspeople around the world - whereby you can then construct objects by your own means. Cooking is an essential part of crafting, and certain objects that
                                     you construct will allow you to combine different food, or magical plants, into delicious foods and alchemical potions. These recipes are always available to the player, provided you can construct the necessary structures used to cook - cauldrons, campfires, ovens...etc...</p>
 
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <button class="btn btn-primary close-button4" href="#!" data-bs-dismiss="modal" id="closeButton4.2">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>

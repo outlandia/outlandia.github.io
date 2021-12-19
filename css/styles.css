@@ -661,6 +661,9 @@ progress {
   margin-left: auto;
 }
 
+
+
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -7067,6 +7070,19 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.modal-video {
+    margin-bottom: 3rem;
+}
+
+.close-button1 {
+}
+.close-button2 {
+}
+.close-button3 {
+}
+.close-button4 {
+}
+
 .mb-6 {
     margin-bottom: 2.5rem !important;
 }
@@ -11123,6 +11139,11 @@ html {
 .masthead .masthead-avatar {
   width: 30rem !important;
 }
+}
+
+video {
+    width: 100%;
+    height: auto;
 }
 
 .masthead {
