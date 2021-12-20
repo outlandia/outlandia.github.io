@@ -11116,7 +11116,8 @@ html {
 }
 .image1 {
   position: relative;
-  width: 80rem;
+  /*width: 80rem;*/
+  width: 100%;
 }
 .image2 {
   position: absolute;
@@ -11130,7 +11131,7 @@ html {
 .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;  text-align: center; }
 
 .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
+/*
 @media (max-width: 992px) {
 .image1 {
   position: relative;
@@ -11140,7 +11141,7 @@ html {
   width: 30rem !important;
 }
 }
-
+*/
 video {
     width: 100%;
     height: auto;
@@ -11158,20 +11159,33 @@ video {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 40rem;
+  width: 50%;
 }
-
+@media (max-width: 992px) {
+    .masthead .masthead-avatar {
+        width: 75%;
+    }
+}
+/*
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 2.75rem !important;
+  line-height: 1.75rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+  }
+}
+*/
+
+@media (max-width: 992px) {
+.masthead .masthead-heading {
+    font-size: 2rem !important;
+    line-height: 1.5rem !important;
   }
 }
 .portfolio .portfolio-item {
