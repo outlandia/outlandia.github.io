@@ -7006,6 +7006,9 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-8 {
+  margin-top: 8rem !important;
+}
 .mt-6 {
     margin-top: -5rem !important;
 }
@@ -7069,7 +7072,9 @@ textarea.form-control-lg {
 .mb-5 {
   margin-bottom: 3rem !important;
 }
-
+.mb-6 {
+  margin-bottom: 8rem !important;
+}
 .modal-video {
     margin-bottom: 3rem;
 }
@@ -7493,7 +7498,7 @@ textarea.form-control-lg {
 .bg-primary {
   /* background-color: #57cddf !important; */
   /*background-image: url("../assets/img/outlandia_coverAnimation.gif");*/
-  background-image: url("../assets/img/backgroundgif.gif");
+  background-image: url("../assets/img/title_OUTLANDIA.png");
   background-position: center;
 
   background-size: cover; 
@@ -11159,7 +11164,7 @@ video {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 50%;
+  width: 60%;
 }
 @media (max-width: 992px) {
     .masthead .masthead-avatar {
